@@ -10,12 +10,9 @@ Exercice JS Jessy
 
 ## Restriction
 
-Have to create script for playing "Shifumi" and this exercice:
-
-https://skillcode.fr/exercices-javascript-introduction-debutants/
-https://skillcode.fr/exercices-javascript-introduction-avances/
-https://skillcode.fr/exercices-javascript-intermediaire/
-https://skillcode.fr/exercices-javascript-intermediaire-partie-2/
+Have to create script for playing "Shifumi".
+We have to do the DOM of the shifumi.
+I Deceide to do Pokemon Shifumi !
 
 ## Creators
 
