@@ -105,14 +105,51 @@ textarea {
   position: absolute;
   margin-left: 57%;
   background-color: #f8f7d6;
-  margin-top: 50px;
+  margin-top: 40px;
   border: 2px solid #1c3001;
   border-radius: 8px 0px 8px 0px
 }
 
 .hpnameplayer {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 40px;
+  background-color: #f8f7d6;
+  border: 2px solid #1c3001;
+  border-radius: 8px 0px 8px 0px;
+  margin-left: 10px;
+}
+
+.centervs {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.versus {
+  width: 100px;
+}
+
+img[class="position-absolute"]{
+  width: 80px;
+}
+
+div[class="pokemon position-absolute"]{
+  margin-left: 69%;
+  margin-top: 25%;
+}
+
+div[class="pokemonplayer position-absolute"]{
+  margin-top: 40%;
+  margin-left: 30%;
+}
+
+li{
+  display: inline;
+}
+
+.bulbi:hover,
+.sala:hover,
+.cara:hover {
+  background:#45424e;
 }
 
 @font-face {
@@ -124,17 +161,64 @@ textarea {
   font-family: "Pokemon";
 }
 
+.entername {
+  background-color: rgba(171, 178, 185, 0.5);
+  position: fixed;
+  z-index:10000;
+}
+
+.enternamea {
+  border-radius: 0px 0px 8px 0px;
+}
+
+input[class="inputname w-75"] {
+  border: 2px solid black;
+  border-radius: 8px 0px 8px 0px;
+}
+
+input[type="button"]{
+  border: 2px solid black;
+}
+
+@media screen and (max-width:599px) {
+  div[class="container col-12 m-0 p-0"],
+  .norotate,
+  .entername,
+  .pokemonchoise,
+  .centervs {
+    display: none;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .rotate {
+    display: none;
+  }
+}
+
 
 @media screen and (max-width: 800px) {
-  .hpname {
+  .hpname, .hpnameplayer {
     margin-top: 10px;
     height: 50px;
+  }
+
+  .centervs{
+    margin-top: 15px;
   }
 
   .pokemonfamily {
     padding: 0;
     margin: 0;
   }
+
+  div[class="pokemon position-absolute"]{
+    margin-top: 12%;
+  }
+
+    div[class="pokemonplayer position-absolute"]{
+      margin-top: 27%;
+    }
 
 }
 

@@ -15,7 +15,34 @@
 
 <body class="w-100">
 
-<img src="img/maptablette.png" alt="o" style="width: 100%; height:100vh; position: absolute;">
+  <div id="allentername" class="entername" style="width:100%; height:100vh;">
+    <div class="enternamea w-25 bg-light mx-auto pt-2 pb-2 text-center" style="margin-top: 12%;">
+      <p class="text-center pokemonfamily">Vite entre ton nom avant que le combat se lance !</p>
+      <form>
+        <input id="enternameid" class="inputname w-75" type="text" placeholder="..."/>
+        <input id="validateenter" class="mt-2" type="button" value="Valider"/>
+      </form>
+    </div>
+  </div>
+
+  <div id="restartall" class="entername" style="width:100%; height:100vh; display: none; z-index: 1000;">
+    <div class="enternamea w-25 bg-light mx-auto pt-2 pb-2 text-center" style="margin-top: 12%;">
+      <p class="text-center pokemonfamily" id="testv"></p>
+      <form>
+        <input id="restart" class="mt-2" type="submit" value="Recommencer"/>
+      </form>
+    </div>
+  </div>
+
+
+
+<img class="rotate" src="img/rotatephone.png" alt="i">
+<img class="norotate" src="img/maptablette.png" alt="o" style="width: 100%; height:100vh; position: absolute;">
+
+<!-- VERSUS -->
+<div class="centervs w-100 text-center">
+  <img src="img/vs.png" alt="p" class="versus">
+</div>
   <!-- Adversary part -->
   <div class="container col-12 m-0 p-0">
     <div class="row col-12">
@@ -24,13 +51,18 @@
         <div class="col-12">
           <p class="pokemonfamily">BOT</p>
           <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+            <div id="progressbarbot" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
               3 vie
             </div>
           </div>
         </div>
       </div>
 
+      <div class="pokemon position-absolute">
+        <img id="bulbibot" class="position-absolute" src="img/bulbizarbot.png" alt="bulbizar" style="display: none;">
+        <img id="salabot" class="position-absolute" src="img/salamechebot.png" alt="bulbizar" style="display: none;">
+        <img id="carabot" class="position-absolute" src="img/carapucebot.png" alt="bulbizar" style="display: none;">
+      </div>
 
     </div>
   </div>
@@ -41,20 +73,59 @@
 
       <div class="hpnameplayer col-5 pl-0 pr-0 pt-1 pb-1">
         <div class="col-12">
-          <p class="pokemonfamily">JOUEUR</p>
+          <p id="playername" class="pokemonfamily"></p>
           <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+            <div id="progressbarplayer" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
               3 vie
             </div>
           </div>
         </div>
       </div>
 
+      <div class="pokemonplayer position-absolute">
+        <img id="bulbizarchoise" class="position-absolute" src="img/bulbizarjoueur.png" alt="bulbizar" style="display: none">
+        <img id="salamechechoise" class="position-absolute" src="img/salamechejoueur.png" alt="bulbizar" style="display: none;">
+        <img id="carapucechoise" class="position-absolute" src="img/carapucejoueur.png" alt="bulbizar" style="display: none;">
+      </div>
+
     </div>
   </div>
 
+<div class="container pokemonchoise">
+  <div class="row">
+    <div class="col-2 position-fixed choiceatk" style="bottom:0; margin-left: 35%; height: 122px; border: 2px solid #d75436; background:#60999d; border-radius: 8px 0px 8px 0px;">
+      <p style="margin-top: 55px;">Choisis ton Pokémon</p>
+    </div>
+    <div class="attack col-5 position-fixed p-0" style="bottom:0; margin-left: 50%; border: 1px solid #575461; background: white;">
+      <div class="row col-12 m-0 p-0" style="height: 120px;">
+        <div id="choisebulbi" class="bulbi col-4 mx-auto text-center" style="height: 100%;">
+          <img src="img/bulbizarjoueur.png" alt="b" style="width:100px; padding-top: 20px;">
+        </div>
+        <div id="choisesala" class="sala col-4 mx-auto p-0 m-0 text-center" style="height: 100%;">
+          <img src="img/salamechejoueur.png" alt="b" style="width:80px; padding-top: 20px;">
+        </div>
+        <div id="choisecara" class="cara col-4 mx-auto p-0 m-0 text-center" style="height: 100%;">
+          <img src="img/carapucejoueur.png" alt="b" style="width:100px; padding-top: 20px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<script>
 
+document.getElementById("validateenter").onclick = function() {name()};
+
+function name(){
+  var x = document.getElementById("enternameid").value;
+
+  if(x.length >= 2) {
+     document.getElementById("allentername").style.display="none";
+     document.getElementById("playername").innerHTML = x;
+   }
+}
+
+</script>
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
