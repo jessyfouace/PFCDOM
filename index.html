@@ -20,10 +20,10 @@
   <div id="allentername" class="entername" style="width:100%; height:100vh;">
     <div class="enternamea w-25 bg-light mx-auto pt-2 pb-2 text-center" style="margin-top: 12%;">
       <p class="text-center pokemonfamily">Vite entre ton nom avant que le combat se lance !</p>
-      <form>
-        <input id="enternameid" class="inputname w-75" type="text" placeholder="..."/>
+      <!-- <form> -->
+        <input id="enternameid" class="inputname w-75" type="" placeholder="..."/>
         <input id="validateenter" class="mt-2" type="button" value="Valider"/>
-      </form>
+      <!-- </form> -->
     </div>
   </div>
 
@@ -125,12 +125,12 @@ document.getElementById("validateenter").onclick = function() {name()};
 
 function name(){
   var x = document.getElementById("enternameid").value;
-
   if(x.length >= 2) {
      document.getElementById("allentername").style.display="none";
      document.getElementById("playername").innerHTML = x;
    }
 }
+
 
 </script>
 
