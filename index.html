@@ -15,6 +15,8 @@
 
 <body class="w-100">
 
+  <!-- NAME ENTER -->
+
   <div id="allentername" class="entername" style="width:100%; height:100vh;">
     <div class="enternamea w-25 bg-light mx-auto pt-2 pb-2 text-center" style="margin-top: 12%;">
       <p class="text-center pokemonfamily">Vite entre ton nom avant que le combat se lance !</p>
@@ -29,12 +31,12 @@
     <div class="enternamea w-25 bg-light mx-auto pt-2 pb-2 text-center" style="margin-top: 12%;">
       <p class="text-center pokemonfamily" id="testv"></p>
       <form>
-        <input id="restart" class="mt-2" type="submit" value="Recommencer"/>
+        <input class="restartcustom" id="restart" class="mt-2" type="submit" value="Recommencer"/>
       </form>
     </div>
   </div>
 
-
+  <!-- rotate phone -->
 
 <img class="rotate" src="img/rotatephone.png" alt="i">
 <img class="norotate" src="img/maptablette.png" alt="o" style="width: 100%; height:100vh; position: absolute;">
@@ -47,9 +49,10 @@
   <div class="container col-12 m-0 p-0">
     <div class="row col-12">
 
+    <!-- TOP PART WITH HP + NAME -->
       <div class="hpname col-5 pl-0 pr-0 pt-1 pb-1">
         <div class="col-12">
-          <p class="pokemonfamily">BOT</p>
+          <p class="pokemonfamily">TEAM AETHER</p>
           <div class="progress">
             <div id="progressbarbot" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
               3 vie
@@ -58,10 +61,11 @@
         </div>
       </div>
 
+    <!-- ADVERS POKEMON -->
       <div class="pokemon position-absolute">
-        <img id="bulbibot" class="position-absolute" src="img/bulbizarbot.png" alt="bulbizar" style="display: none;">
-        <img id="salabot" class="position-absolute" src="img/salamechebot.png" alt="bulbizar" style="display: none;">
-        <img id="carabot" class="position-absolute" src="img/carapucebot.png" alt="bulbizar" style="display: none;">
+        <img id="bulbibot" class="position-absolute" src="img/germignon.png" alt="bulbizar" style="display: none;">
+        <img id="salabot" class="position-absolute" src="img/magmar.png" alt="bulbizar" style="display: none;">
+        <img id="carabot" class="position-absolute" src="img/ramoloss.png" alt="bulbizar" style="display: none;">
       </div>
 
     </div>
@@ -71,6 +75,7 @@
   <div class="container col-12 m-0 p-0">
     <div class="row col-12">
 
+    <!-- PLAYER NAME + HP -->
       <div class="hpnameplayer col-5 pl-0 pr-0 pt-1 pb-1">
         <div class="col-12">
           <p id="playername" class="pokemonfamily"></p>
@@ -82,6 +87,7 @@
         </div>
       </div>
 
+    <!-- PLAYER POKEMON -->
       <div class="pokemonplayer position-absolute">
         <img id="bulbizarchoise" class="position-absolute" src="img/bulbizarjoueur.png" alt="bulbizar" style="display: none">
         <img id="salamechechoise" class="position-absolute" src="img/salamechejoueur.png" alt="bulbizar" style="display: none;">
@@ -91,6 +97,7 @@
     </div>
   </div>
 
+<!-- CHOISE POKEMON PLAYER -->
 <div class="container pokemonchoise">
   <div class="row">
     <div class="col-2 position-fixed choiceatk" style="bottom:0; margin-left: 35%; height: 122px; border: 2px solid #d75436; background:#60999d; border-radius: 8px 0px 8px 0px;">

@@ -171,9 +171,18 @@ li{
   border-radius: 0px 0px 8px 0px;
 }
 
-input[class="inputname w-75"] {
+input[class="inputname w-75"],
+input[class="mt-2"],
+input[class="restartcustom"] {
   border: 2px solid black;
   border-radius: 8px 0px 8px 0px;
+  background: inherit;
+}
+
+input[class="mt-2"]:hover,
+input[class="restartcustom"]:hover{
+  background:inherit;
+  cursor: pointer;
 }
 
 input[type="button"]{

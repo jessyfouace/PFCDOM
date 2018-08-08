@@ -51,7 +51,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarplayer").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Plasma !";
+      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -63,7 +63,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarbot").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Plasma ! Félicitation."
+      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Félicitation."
     }
   }
 
@@ -105,7 +105,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarplayer").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Plasma !";
+      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -117,7 +117,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarbot").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Plasma ! Félicitation."
+      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Félicitation."
     }
   }
 
@@ -159,7 +159,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarplayer").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Plasma !";
+      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -171,6 +171,6 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarbot").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Plasma ! Félicitation."
+      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Félicitation."
     }
   }
