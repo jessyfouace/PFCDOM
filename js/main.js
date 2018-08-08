@@ -63,7 +63,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarbot").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Félicitation."
+      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
     }
   }
 
@@ -117,7 +117,7 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarbot").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Félicitation."
+      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
     }
   }
 
@@ -171,6 +171,6 @@ document.getElementById("choisecara").onclick = function() {cara()};
       document.getElementById("progressbarbot").style.width="0%";
       document.getElementById("restartall").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Félicitation."
+      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
     }
   }
