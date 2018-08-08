@@ -179,7 +179,7 @@ input[type="button"]{
   border: 2px solid black;
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:499px) {
   div[class="container col-12 m-0 p-0"],
   .norotate,
   .entername,
@@ -191,7 +191,7 @@ input[type="button"]{
 
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:500px) {
   .rotate {
     display: none;
   }
