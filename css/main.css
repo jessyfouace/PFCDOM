@@ -215,6 +215,7 @@ div[class="row col-6 mx-auto bg-light"]{
   .norotate,
   .entername,
   .choiseperso,
+  #pres,
   #choiseperso,
   .norotatemobile,
   .pokemonchoise,
@@ -222,6 +223,12 @@ div[class="row col-6 mx-auto bg-light"]{
     display: none;
   }
 
+}
+
+@media screen and (min-width:700px) {
+  #pres {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width:505px) {

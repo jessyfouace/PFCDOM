@@ -11,6 +11,9 @@ var victory = 0;
 document.getElementById("morelife").onclick = function() {onelifemore()};
 document.getElementById("restart").onclick = function() {restartgame()};
 
+// Presentation game
+document.getElementById("deletepres").onclick = function() {deleteprese()};
+
 // function for perso1 2 3
 document.getElementById("perso1").onclick = function() {perso1()};
 document.getElementById("perso2").onclick = function() {perso2()};
@@ -700,6 +703,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
     if (victory >= 3 && adversarypoint == 2) {
       document.getElementById("onelife").style.display="inline-block";
     }
+  }
+
+  function deleteprese(){
+    document.getElementById("pres").style.display="none";
   }
 
   function onelifemore(){
