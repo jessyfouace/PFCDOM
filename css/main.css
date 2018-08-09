@@ -172,6 +172,20 @@ li{
   border-radius: 0px 0px 8px 0px;
 }
 
+#perso1w{
+  width: 100px;
+}
+#perso2w{
+  width: 50px;
+}
+#perso3w{
+  width: 90px;
+}
+
+#persol {
+  width: 150px;
+}
+
 input[class="inputname w-75"],
 input[class="mt-2"],
 input[class="restartcustom"] {
@@ -188,6 +202,12 @@ input[class="restartcustom"]:hover{
 
 input[type="button"]{
   border: 2px solid black;
+}
+
+div[class="row col-6 mx-auto bg-light"]{
+  margin-top: 6%;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
 }
 
 @media screen and (max-width:499px) {
@@ -254,6 +274,10 @@ input[type="button"]{
     height: 50px;
   }
 
+  #textloose {
+    font-size: 10px;
+  }
+
   .norotate {
     display: none;
   }
@@ -266,12 +290,29 @@ input[type="button"]{
     padding: 0;
     margin: 0;
   }
+  #perso1w{
+    width: 80px;
+  }
+  #perso2w{
+    width: 30px;
+  }
+  #perso3w{
+    width: 70px;
+  }
+
+  #persol {
+    width: 150px;
+  }
 
 }
 
 @media screen and (min-width: 801px) {
   .norotatemobile {
     display: none;
+  }
+
+  div[class="row col-6 mx-auto bg-light"]{
+    margin-top: 10%;
   }
 
   .pokemoncp {

@@ -102,9 +102,13 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
-      document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("end").style.display="inline-block";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -114,9 +118,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="inline-block";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -156,9 +165,13 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
-      document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("end").style.display="inline-block";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -168,9 +181,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="inline-block";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -210,9 +228,13 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
-      document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("end").style.display="inline-block";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -222,9 +244,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="inline-block";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -275,9 +302,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -287,9 +319,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="inline-block";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -329,9 +366,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -341,9 +383,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="inline-block";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -383,9 +430,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -395,9 +447,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="inline-block";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -448,9 +505,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -460,9 +522,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="inline-block";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -502,9 +569,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -514,9 +586,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="inline-block";
+      document.getElementById("persol").style.display="none";
     }
   }
 
@@ -556,9 +633,14 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarplayer").innerHTML="1 vie";
     } else if (adversarypoint == 3) {
       document.getElementById("progressbarplayer").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarplayer").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous ne batterez jamais la team Aether !";
+      document.getElementById("textloose").style.display="inline-block";
+      document.getElementById("textwin").style.display="none";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="none";
+      document.getElementById("persol").style.display="inline-block";
     }
     if (playerpoint == 1) {
       document.getElementById("progressbarbot").style.width="66%";
@@ -568,8 +650,13 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("progressbarbot").innerHTML="1 vie";
     } else if (playerpoint == 3) {
       document.getElementById("progressbarbot").style.width="0%";
-      document.getElementById("restartall").style.display="inline-block";
+      document.getElementById("end").style.display="inline-block";
       document.getElementById("progressbarbot").innerHTML="";
-      document.getElementById("testv").innerHTML="Vous venez de battre la team Aether ! Bravo."
+      document.getElementById("textloose").style.display="none";
+      document.getElementById("textwin").style.display="inline-block";
+      document.getElementById("perso1w").style.display="none";
+      document.getElementById("perso2w").style.display="none";
+      document.getElementById("perso3w").style.display="inline-block";
+      document.getElementById("persol").style.display="none";
     }
   }
