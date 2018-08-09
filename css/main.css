@@ -225,7 +225,7 @@ div[class="row col-6 mx-auto bg-light"]{
 
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:1050px) {
   #pres {
     height: 100vh;
   }
