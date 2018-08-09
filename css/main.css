@@ -151,6 +151,17 @@ li{
   font-family: "Pokemon";
 }
 
+.colobg {
+  background-color: rgba(171, 178, 185, 0.9);
+}
+
+.colobg2:hover {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+}
+
 .entername {
   background-color: rgba(171, 178, 185, 0.5);
   position: fixed;
@@ -183,6 +194,8 @@ input[type="button"]{
   div[class="container col-12 m-0 p-0"],
   .norotate,
   .entername,
+  .choiseperso,
+  #choiseperso,
   .norotatemobile,
   .pokemonchoise,
   .centervs {
@@ -205,6 +218,12 @@ input[type="button"]{
   }
 
   img[src="img/bulbizarjoueur.png"],
+  img[src="img/gobou.png"],
+  img[src="img/arcko.png"],
+  img[src="img/poussifeu.png"],
+  img[src="img/tortipus.png"],
+  img[src="img/tiplouf.png"],
+  img[src="img/ouisticram.png"],
   img[src="img/carapucejoueur.png"]{
     height:60px;
   }
@@ -264,6 +283,12 @@ input[type="button"]{
   }
 
   img[src="img/bulbizarjoueur.png"],
+  img[src="img/gobou.png"],
+  img[src="img/arcko.png"],
+  img[src="img/poussifeu.png"],
+  img[src="img/tortipus.png"],
+  img[src="img/tiplouf.png"],
+  img[src="img/ouisticram.png"],
   img[src="img/carapucejoueur.png"]{
     height:100px;
   }
