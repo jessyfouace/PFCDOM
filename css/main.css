@@ -210,7 +210,7 @@ div[class="row col-6 mx-auto bg-light"]{
   border-radius: 8px 8px 8px 8px;
 }
 
-@media screen and (max-width:499px) {
+@media screen and (max-width:504px) {
   div[class="container col-12 m-0 p-0"],
   .norotate,
   .entername,
@@ -224,7 +224,7 @@ div[class="row col-6 mx-auto bg-light"]{
 
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:505px) {
   .rotate {
     display: none;
   }
