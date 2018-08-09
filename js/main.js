@@ -4,7 +4,12 @@ var choice = ["carapuce", "salameche", "bulbizar"];
 var playerpoint = 0;
 // Number of start life of adversary
 var adversarypoint = 0;
+// Number of victory
+var victory = 0;
 
+// Bonus life
+document.getElementById("morelife").onclick = function() {onelifemore()};
+document.getElementById("restart").onclick = function() {restartgame()};
 
 // function for perso1 2 3
 document.getElementById("perso1").onclick = function() {perso1()};
@@ -126,6 +131,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="none";
       document.getElementById("perso3w").style.display="none";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -189,6 +198,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="none";
       document.getElementById("perso3w").style.display="none";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -252,6 +265,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="none";
       document.getElementById("perso3w").style.display="none";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -327,6 +344,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="inline-block";
       document.getElementById("perso3w").style.display="none";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -391,6 +412,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="inline-block";
       document.getElementById("perso3w").style.display="none";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -455,6 +480,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="inline-block";
       document.getElementById("perso3w").style.display="none";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -530,6 +559,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="none";
       document.getElementById("perso3w").style.display="inline-block";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -594,6 +627,10 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="none";
       document.getElementById("perso3w").style.display="inline-block";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
+    }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
     }
   }
 
@@ -658,5 +695,27 @@ document.getElementById("perso3").onclick = function() {perso3()};
       document.getElementById("perso2w").style.display="none";
       document.getElementById("perso3w").style.display="inline-block";
       document.getElementById("persol").style.display="none";
+      victory = victory +1;
     }
+    if (victory >= 3 && adversarypoint == 2) {
+      document.getElementById("onelife").style.display="inline-block";
+    }
+  }
+
+  function onelifemore(){
+    adversarypoint = adversarypoint -1;
+    document.getElementById("onelife").style.display="none";
+    document.getElementById("progressbarplayer").style.width="66%";
+    document.getElementById("progressbarplayer").innerHTML="2 vie";
+    victory = 0;
+  }
+
+  function restartgame(){
+    document.getElementById("end").style.display="none";
+    adversarypoint = 0;
+    playerpoint = 0;
+    document.getElementById("progressbarbot").style.width="100%";
+    document.getElementById("progressbarbot").innerHTML="3 vie";
+    document.getElementById("progressbarplayer").style.width="100%";
+    document.getElementById("progressbarplayer").innerHTML="3 vie";
   }
