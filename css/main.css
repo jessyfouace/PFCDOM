@@ -101,6 +101,15 @@ textarea {
   background-color: red;
 }
 
+#pleaserotate-graphic{
+        fill: #fff;
+    }
+
+#pleaserotate-backdrop {
+    color: #fff;
+    background-color: #000;
+}
+
 .hpname {
   position: absolute;
   margin-left: 57%;
